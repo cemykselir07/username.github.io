@@ -1,0 +1,93 @@
+body {
+    background-image: url(images/arka.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.yazi1 {
+    border-radius: 5px;
+    color: rgba(55, 146, 221, 0.425);
+    font-size: 30px;
+    text-decoration: dotted;
+    text-align: center;
+    margin: 20px;
+    column-gap: 10px;
+    column-rule-width: thin;
+}
+.resim1{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+.yazi1 p {
+    color: rgb(36, 93, 201);
+    font-size: 15px;
+    margin: 0 15px; /* Paragrafın varsayılan margin değerini sıfırlar */
+    padding: 0 15px; /* Paragrafın varsayılan padding değerini sıfırlar */
+}
+
+.yazi1:hover {
+    color: rgb(29, 151, 207);
+}
+
+.basliklar {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.219);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.container ul li {
+    margin: 0 15px;
+}
+
+.container ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: azure;
+}
+
+.container ul li a:hover {
+    color: rgba(0, 174, 255, 0.685);
+}
+
+footer {
+    background-color: rgba(0, 0, 255, 0.219);
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+i {
+    color: rgba(0, 0, 0, 0.473);
+    margin-right: 10px;
+}
